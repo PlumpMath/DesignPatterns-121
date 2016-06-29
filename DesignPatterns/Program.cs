@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using System.Text;
-
-namespace DesignPatterns
+﻿namespace AllIn
 {
-    
-
     class Program
     {
         static void Main(string[] args)
         {
-  
+
         }
     }
 }

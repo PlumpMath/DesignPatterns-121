@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.CreationalPatterns
+namespace AllIn.CreationalPatterns
 {
     class FactoryMethod
     {

@@ -44,6 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehavioralPatterns\ChainOfResponsibility.cs" />
+    <Compile Include="BehavioralPatterns\Command.cs" />
+    <Compile Include="BehavioralPatterns\Interpeter.cs" />
+    <Compile Include="BehavioralPatterns\Iterator.cs" />
+    <Compile Include="BehavioralPatterns\Mediator.cs" />
+    <Compile Include="BehavioralPatterns\Memento.cs" />
+    <Compile Include="BehavioralPatterns\Observer.cs" />
+    <Compile Include="BehavioralPatterns\State.cs" />
+    <Compile Include="BehavioralPatterns\Strategy.cs" />
+    <Compile Include="BehavioralPatterns\TemplateMethod.cs" />
+    <Compile Include="BehavioralPatterns\Visitor.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory.cs" />
     <Compile Include="CreationalPatterns\Builder.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod.cs" />
@@ -52,23 +63,38 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StructuralPatterns\Adapter.cs" />
+    <Compile Include="StructuralPatterns\Bridge.cs" />
     <Compile Include="StructuralPatterns\Composite.cs" />
     <Compile Include="StructuralPatterns\Decorator.cs" />
     <Compile Include="StructuralPatterns\Facade.cs" />
+    <Compile Include="StructuralPatterns\Flyweight.cs" />
     <Compile Include="StructuralPatterns\Proxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="UML\BehavioralPatterns\chainofresponsibility.png" />
+    <Content Include="UML\BehavioralPatterns\command.png" />
+    <Content Include="UML\BehavioralPatterns\interpreter.png" />
+    <Content Include="UML\BehavioralPatterns\iterator.png" />
+    <Content Include="UML\BehavioralPatterns\mediator.png" />
+    <Content Include="UML\BehavioralPatterns\memento.png" />
+    <Content Include="UML\BehavioralPatterns\observer.png" />
+    <Content Include="UML\BehavioralPatterns\state.png" />
+    <Content Include="UML\BehavioralPatterns\strategy.png" />
+    <Content Include="UML\BehavioralPatterns\templatemethod.png" />
+    <Content Include="UML\BehavioralPatterns\visitor.png" />
     <Content Include="UML\CreationalPatterns\abstractfactory.png" />
     <Content Include="UML\CreationalPatterns\builder.png" />
     <Content Include="UML\CreationalPatterns\factorymethod.png" />
     <Content Include="UML\CreationalPatterns\prototype.png" />
     <Content Include="UML\StructuralPatterns\adapter.png" />
+    <Content Include="UML\StructuralPatterns\bridge.png" />
     <Content Include="UML\StructuralPatterns\composite.png" />
     <Content Include="UML\StructuralPatterns\decorator.png" />
     <Content Include="UML\StructuralPatterns\facade.png" />
+    <Content Include="UML\StructuralPatterns\flyweight.png" />
     <Content Include="UML\StructuralPatterns\proxy.png" />
   </ItemGroup>
   <ItemGroup />

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.CreationalPatterns
+namespace AllIn.CreationalPatterns
 {
     /*
               Когда система не должна зависеть от способа создания и компоновки новых объектов
